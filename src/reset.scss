@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html,
+body,
+main,
+ul,
+div,
+ol,
+selection,
+header,
+footer {
+  margin: 0;
+  padding: 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="button"] {
+  position: relative;
+  font-size: 13px;
+  height: 32px;
+  line-height: 32px;
+  box-sizing: border-box;
+  vertical-align: middle;
+  outline: none;
+  border: 1px solid var(--ivy-border-color);
+  border-radius: 4px;
+  padding: 0 8px;
+  transition: all 0.3s;
+  &:hover {
+    color: var(--ivy-color-primary);
+    border-color: var(--ivy-color-primary);
+  }
+}
