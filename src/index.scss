@@ -147,6 +147,9 @@ pre code {
   font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
     "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
 }
+#cnblogs_post_body .current-collection {
+  max-width: 100%;
+}
 #cnblogs_post_body ul li {
   padding: 4px 0;
 }
